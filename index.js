@@ -17,7 +17,7 @@ const authRoutes = require('./routes/auth');
 const varMiddleware = require('./middleware/variables');
 const userMiddleware = require('./middleware/user');
 
-const MONGODB_ULI = 'mongodb+srv://velfr:17pdH7dPmVjPV4S2@cluster0.fzbhd.mongodb.net/shop';
+const MONGODB_ULI = 'SOME_URI';
 
 const app = express();
 
